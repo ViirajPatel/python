@@ -11,6 +11,6 @@ for image in os.listdir(os.getcwd()):
         img = cv2.imread(image)
         # rotate and save the image with the same filename
         rotated_img = cv2.rotate(img, rotateCode=cv2.ROTATE_90_COUNTERCLOCKWISE) 
-        cv2.imwrite("output\\"+image, rotated_img)
+        cv2.imwrite("output\\"+image, rotated_img)#here output is a folder name so if you haven't created then create it !
        
 

@@ -3,6 +3,7 @@ import cv2
 # import os utilities
 import os
 # rotatecodes
+#just for fun
 # ROTATE_90_CLOCKWISE , ROTATE_90_COUNTERCLOCKWISE , ROTATE_180
 for image in os.listdir(os.getcwd()):
     if(image == "rotate.py" or image=="output"): #here i deducted the name of other files and folders
